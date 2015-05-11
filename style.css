@@ -44,14 +44,27 @@ a.button {
 a.button:hover {
 	background-color: #7F7F7F;
 }
-p.button {
+p.button, li.button {
 	margin: 0;
-	font-size: 200%;
 	color: #C4C4C4;
 }
-p.button:hover {
+p.button {
+	font-size: 200%;
+}
+p.button:hover, li.button:hover {
 	color: #242424;
 }
 h1, p {
 	color: #242424;
+}
+.field {
+	margin: 1% 1% 0% 1%;
+	float: left;
+	width: 98%;
+}
+#userform {
+	margin: 2%;
+}
+#pword {
+	font-style: bold;
 }
