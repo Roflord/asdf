@@ -1,0 +1,57 @@
+header, section, footer, aside, nav, main, article, figure {
+	display: block; /* compatibilidad con navegadores viejos */
+}
+body {
+	background-color: #C4C4C4;
+	width: 70%;
+	margin: 0 15%;
+}
+html {
+	font-family: 'Inconsolata', Arial, serif;
+}
+#socialbar {
+	border: 0;
+	padding: 0;
+	border-spacing: 10px;
+	width: auto;
+	text-align: center;
+	float: right;
+	display: block;
+}
+.banner {
+	width: 100%;
+	height: auto;
+}
+a.button {
+	text-decoration: none;
+	
+	display: inline-block;
+	overflow: hidden;
+	height: auto;
+	width: 20%;
+	background-color: #242424;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	vertical-align: middle;
+	text-align: center;
+	
+	margin: 0;
+	padding: 0;
+}
+a.button:hover {
+	background-color: #7F7F7F;
+}
+p.button {
+	margin: 0;
+	font-size: 200%;
+	color: #C4C4C4;
+}
+p.button:hover {
+	color: #242424;
+}
+h1, p {
+	color: #242424;
+}
